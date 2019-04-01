@@ -1,0 +1,30 @@
+{
+    "name": "woisk/throttle",
+    "description": "woisk throttle ",
+    "homepage": "http://www.woisk.com",
+    "authors": [
+        {
+            "name": "lifenglin",
+            "email": "bolelin@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Woisk\\Throttle\\": "src/"
+        }
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
